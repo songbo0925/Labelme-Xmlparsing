@@ -3,9 +3,9 @@ import xml.etree.ElementTree as ET
 import cv2 as cv
 
 # 图片和xml的路径
-img_path = "../dataset/default-test/image"
-xml_path = "../dataset/default-test/xml"
-save_path = "../dataset/ZY2020-ReID/test"
+img_path = "./image"
+xml_path = "./xml"
+save_path = "./output"
 
 # 读取所有xml文件并进行处理
 if os.path.exists(xml_path):
